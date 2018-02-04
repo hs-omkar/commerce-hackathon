@@ -1,0 +1,16 @@
+uuid: c9587339-e9d2-4826-82d9-6cc70acd82b3
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.chocolate_categories
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+id: taxonomy_term.chocolate_categories
+target_entity_type_id: taxonomy_term
+target_bundle: chocolate_categories
+default_langcode: site_default
+language_alterable: false

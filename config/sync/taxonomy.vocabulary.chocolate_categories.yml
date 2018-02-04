@@ -1,0 +1,9 @@
+uuid: b26ddb9f-b499-4f1f-bea6-5623efb198f7
+langcode: en
+status: true
+dependencies: {  }
+name: 'Chocolate Categories'
+vid: chocolate_categories
+description: 'Various types of chocolates'
+hierarchy: 0
+weight: 0
