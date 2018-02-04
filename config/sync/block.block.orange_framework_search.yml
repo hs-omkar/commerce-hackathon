@@ -1,0 +1,22 @@
+uuid: 28bdfe43-57b6-4a19-a84f-5235f6ee2715
+langcode: en
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - orange_framework
+_core:
+  default_config_hash: za-39d5WDUg6XvbyqSnuVYEeq6QM4qKJxW8MnoAha5A
+id: orange_framework_search
+theme: orange_framework
+region: content
+weight: -1
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: Search
+  provider: search
+  label_display: visible
+visibility: {  }

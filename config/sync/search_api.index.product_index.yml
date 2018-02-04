@@ -1,0 +1,33 @@
+uuid: fef8ef44-680d-426e-af55-4f5b88825c34
+langcode: en
+status: true
+dependencies:
+  config:
+    - search_api.server.product_search_server
+  module:
+    - search_api
+    - commerce_product
+id: product_index
+name: 'Products Index'
+description: ''
+read_only: false
+field_settings: {  }
+datasource_settings:
+  'entity:commerce_product':
+    bundles:
+      default: true
+      selected: {  }
+    languages:
+      default: true
+      selected: {  }
+processor_settings:
+  add_url: {  }
+  aggregated_field: {  }
+  rendered_item: {  }
+tracker_settings:
+  default:
+    indexing_order: fifo
+options:
+  index_directly: true
+  cron_limit: 50
+server: product_search_server

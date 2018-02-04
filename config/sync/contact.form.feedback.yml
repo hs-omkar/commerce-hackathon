@@ -1,0 +1,14 @@
+uuid: 80fbd264-1595-44ce-ae67-242b594e483e
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: c4zaT5cyPxuTXI6JOWt3qRtMvICT9tHB6d9a5VG-CmQ
+id: feedback
+label: 'Website feedback'
+recipients:
+  - gdgautamd27@gmail.com
+reply: ''
+weight: 0
+message: null
+redirect: null

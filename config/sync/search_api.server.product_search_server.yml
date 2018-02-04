@@ -1,0 +1,17 @@
+uuid: 1d6e0c48-dbf2-4430-8f22-9044446f3a46
+langcode: en
+status: true
+dependencies:
+  module:
+    - search_api_db
+id: product_search_server
+name: 'Product Search Server'
+description: ''
+backend: search_api_db
+backend_config:
+  database: 'default:default'
+  min_chars: 1
+  partial_matches: true
+  autocomplete:
+    suggest_suffix: true
+    suggest_words: true

@@ -1,0 +1,22 @@
+uuid: 391f888a-b580-47ae-85f6-51396b12ad77
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - commerce_2_demo
+_core:
+  default_config_hash: 8I8iACSa0sKO3k3jlvUG1ge52rfcKX7USJAQYnzuBgg
+id: commerce_2_demo_help
+theme: commerce_2_demo
+region: content
+weight: -30
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

@@ -1,0 +1,22 @@
+uuid: 26c21144-fb6f-4daa-a9e1-a6adf6c2c6c5
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - orange_framework
+_core:
+  default_config_hash: 8I8iACSa0sKO3k3jlvUG1ge52rfcKX7USJAQYnzuBgg
+id: orange_framework_help
+theme: orange_framework
+region: content
+weight: -30
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

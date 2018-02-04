@@ -1,0 +1,14 @@
+uuid: e448cd22-b8eb-4165-995e-f4c6c3675004
+name: eStore
+mail: gdgautamd27@gmail.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI

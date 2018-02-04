@@ -1,0 +1,22 @@
+uuid: 7d45bcdd-dcce-4f79-97bc-97c85600c337
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - orange_framework
+_core:
+  default_config_hash: KHQIJ7Vfl25lTjzIc7qIvnuistt-Mw2O0kG4jCofmkI
+id: orange_framework_messages
+theme: orange_framework
+region: content
+weight: 0
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

@@ -1,0 +1,24 @@
+uuid: c151b061-1b89-47b3-840e-a2f7ccc04bd8
+langcode: en
+status: true
+dependencies:
+  module:
+    - commerce_cart
+  theme:
+    - commerce_2_demo
+_core:
+  default_config_hash: UQ9l8BkgFPcF7r-8VwsTIxC1bOMlI0iQLrJUS95c1E8
+id: commerce_2_demo_shopping_cart
+theme: commerce_2_demo
+region: header
+weight: null
+provider: null
+plugin: commerce_cart
+settings:
+  id: commerce_cart
+  label: 'Shopping Cart'
+  provider: commerce_cart
+  label_display: '0'
+  dropdown: true
+  item_text: items
+visibility: {  }

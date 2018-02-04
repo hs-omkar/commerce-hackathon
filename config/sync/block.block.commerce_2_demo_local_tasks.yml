@@ -1,0 +1,22 @@
+uuid: 445c29b3-84af-45a5-b49e-3514d6933d92
+langcode: en
+status: true
+dependencies:
+  theme:
+    - commerce_2_demo
+_core:
+  default_config_hash: X9I1OB0W3WlWtrK-CNcg6hNWwa8wficanpH8pYnDZDE
+id: commerce_2_demo_local_tasks
+theme: commerce_2_demo
+region: content
+weight: -40
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

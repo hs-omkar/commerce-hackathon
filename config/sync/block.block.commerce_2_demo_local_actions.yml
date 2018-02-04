@@ -1,0 +1,20 @@
+uuid: f7c994a6-29fc-48db-8f7a-29f2c5c6ee12
+langcode: en
+status: true
+dependencies:
+  theme:
+    - commerce_2_demo
+_core:
+  default_config_hash: 13GQpeITIJsp1kyPniXtWZfyFH87vb1xxJCHifL4UeE
+id: commerce_2_demo_local_actions
+theme: commerce_2_demo
+region: content
+weight: -20
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }
